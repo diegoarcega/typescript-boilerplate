@@ -1,5 +1,5 @@
-import React from 'react'
+import React, { ButtonHTMLAttributes } from 'react'
 
-export default ({ children, ...rest }: { children: string }): JSX.Element => (
+export default ({ children, ...rest }: ButtonHTMLAttributes<HTMLButtonElement>): JSX.Element => (
   <button {...rest}>{children}</button>
 )

@@ -28,7 +28,7 @@ export default ({ children }: any) => (
         </Col>
       </Row>
     </Container>
-    <Container>
+    <Container fluid>
       <Row>
         <Col>{children}</Col>
       </Row>

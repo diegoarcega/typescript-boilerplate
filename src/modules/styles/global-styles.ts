@@ -23,5 +23,9 @@ export default createGlobalStyle`
 
   a {
     text-decoration: none;
+
+    &:visited {
+      color: #fff
+    }
   }
 `
