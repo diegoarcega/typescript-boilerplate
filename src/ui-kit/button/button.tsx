@@ -1,3 +1,5 @@
 import React from 'react'
 
-export default ({ children, ...rest }: { children: string }) => <button {...rest}>{children}</button>
+export default ({ children, ...rest }: { children: string }): JSX.Element => (
+  <button {...rest}>{children}</button>
+)
