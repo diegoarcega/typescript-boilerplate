@@ -1,3 +1,9 @@
 import React from 'react'
+import { Button, Input } from '../../ui-kit'
 
-export default () => <p>I'm login page</p>
+export default () => (
+  <div>
+    <Input />
+    <Button>Logina</Button>
+  </div>
+)
